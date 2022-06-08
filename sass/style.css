@@ -1,0 +1,104 @@
+.header {
+  background-color: white;
+}
+
+.header__logo {
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.header__logo .nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 550px;
+  font-size: 20px;
+}
+
+.header__logo .nav ul li {
+  margin: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.header__logo .nav ul li:hover {
+  border-radius: 20px;
+  background-color: #8ecfeb;
+  margin-bottom: 20px;
+}
+
+.section__contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80px;
+  padding: 10px;
+  margin: 40px;
+  margin-top: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  color: #f889c4;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: -webkit-gradient(linear, left top, right top, from(#e0eafc), to(#cfdef3));
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  -webkit-box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45), 5px 5px 9px rgba(94, 104, 121, 0.3);
+          box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45), 5px 5px 9px rgba(94, 104, 121, 0.3);
+}
+
+.section__contenedor h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+}
+
+.section__videos {
+  -webkit-box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45), 5px 5px 9px rgba(94, 104, 121, 0.3);
+          box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45), 5px 5px 9px rgba(94, 104, 121, 0.3);
+}
+
+.section div.img-fluid {
+  -webkit-box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45), 5px 5px 9px rgba(94, 104, 121, 0.3);
+          box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45), 5px 5px 9px rgba(94, 104, 121, 0.3);
+}
+
+@media (max-width: 576px) {
+  .header {
+    background-color: white;
+  }
+  .header .nav li {
+    border-radius: 20px;
+  }
+  .header .nav li:hover {
+    background-color: #fff56d;
+  }
+}
+
+@media (max-width: 1200px) {
+  .nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: 550px;
+    font-size: 20px;
+  }
+  .nav ul li {
+    margin: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .nav ul li:hover {
+    border-radius: 20px;
+    background-color: #8ecfeb;
+    margin-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
